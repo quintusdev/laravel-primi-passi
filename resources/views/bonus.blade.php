@@ -17,7 +17,9 @@
             <div class="row">
                 <div class="text-center mt-3">
                     <h1>Hello World! Primo Esercizio Laravel!</h1>
-                    <h2>Pagina ABOUT US</h2>
+                    <h2>Pagina BONUS</h2>
+                    <h3>Se visualizzi questa pagina vuol dire che il collegamento fra la home e questa pagina è avvenuto con successo!</h3>
+                    <a href="/">Ritorna alla Pagina HOME</a>
                 </div>
             </div>
         </div>

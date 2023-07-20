@@ -18,7 +18,7 @@
                 <div class="text-center mt-5">
                     <h1>Hello World! Primo Esercizio Laravel!</h1>
 
-                    <a href="/bonus">Collegamento Pagina ABOUT US</a>
+                    <a href="/bonus">Collegamento Pagina BONUS</a>
                 </div>
             </div>
         </div>
