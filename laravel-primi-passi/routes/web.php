@@ -14,16 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-});
-
-Route::get('/bonus', function () {
-    $data = [
-        'titolo' => 'Pagina HTML',
-        'descrizione' => 'LARAVEL',
-        'autore' => 'QuintusDev',
-        'datacreazione' => '20/07/2023',
-        'azienda' => 'BOOLEAN COURSE',
-    ];
-    return view('bonus', $data);
+    return view('welcome');
 });

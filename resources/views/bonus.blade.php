@@ -15,11 +15,20 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="text-center mt-3">
-                    <h1>Hello World! Primo Esercizio Laravel!</h1>
-                    <h2 class="my-3 text-success">Pagina BONUS</h2>
-                    <h3 class="my-3 text-danger">Se visualizzi questa pagina vuol dire che il collegamento <br> fra la home e questa pagina è avvenuto con successo!</h3>
-                    <a class="mt-4" href="/">Ritorna alla Pagina HOME</a>
+                <div class="col-12">
+                    <div class="text-center mt-3">
+                        <h1>Hello World! Primo Esercizio Laravel!</h1>
+                        <h2 class="my-3 text-success">Pagina BONUS</h2>
+                        <h3 class="my-3 text-danger">Se visualizzi questa pagina vuol dire che il collegamento <br> fra la home e questa pagina è avvenuto con successo!</h3>
+                        <div class="content">   
+                            <h3>{{ $titolo }}</h3>
+                            <h4>Framework: {{ $descrizione }}</h4>
+                            <h4>Autore: {{ $autore }}</h4>
+                            <h4>Data Creazione: {{ $datacreazione }}</h4>
+                            <h4>Azienda: {{ $azienda }}</h4>
+                        </div>
+                        <a class="mt-4" href="/">Ritorna alla Pagina HOME</a>
+                    </div>
                 </div>
             </div>
         </div>
