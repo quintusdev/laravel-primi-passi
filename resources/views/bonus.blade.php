@@ -15,10 +15,9 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="text-center mt-5">
+                <div class="text-center mt-3">
                     <h1>Hello World! Primo Esercizio Laravel!</h1>
-
-                    <a href="/bonus">Collegamento Pagina ABOUT US</a>
+                    <h2>Pagina ABOUT US</h2>
                 </div>
             </div>
         </div>
